@@ -24,7 +24,7 @@ env:
   DIY_P2_SH: diy-part2.sh
   MRG_ADD_SH: NewifiD2/NewifiD2.sh
 #   SSH_ACTIONS: false
-  UPLOAD_BIN_DIR: false
+  UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: false
   TZ: Asia/Shanghai
   FILE_NAME: NewifiD2-MT7621
