@@ -188,7 +188,7 @@ jobs:
 
     - name: Create release
       id: release
-      uses: ncipollo/release-action@v1
+      uses: softprops/action-gh-release@v1
       with:
         name: R${{ env.DATE }} for ${{ env.PRODUCT_NAME }}
         allowUpdates: true
